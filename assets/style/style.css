@@ -1,0 +1,65 @@
+.container {  display: grid;
+    grid-template-columns: 10em 10em 35em 10em 10em;
+    grid-template-rows: 4em 30.5em 5em 4em 4em 4em 4em;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header . . Nav-Bar Nav-Bar"
+      "Picture-1 Picture-1 Picture-1 Picture-1 Picture-1"
+      "Margin What-was-the-battle What-was-the-battle image-1 Margin-2"
+      "Margin image-2 why-the-battle-took-place why-the-battle-took-place Margin-2"
+      "Margin Video Video Video Margin-2"
+      "Margin Museums Museums Museums Margin-2"
+      "Margin Footer Footer Footer Margin-2";
+  }
+  
+  .Header { grid-area: Header; }
+  
+  .Nav-Bar { grid-area: Nav-Bar; }
+  
+  .Picture-1 { grid-area: Picture-1; }
+  
+  .Margin {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ".";
+    grid-area: Margin;
+  }
+  
+  .Margin-2 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ".";
+    grid-area: Margin-2;
+  }
+  
+  .What-was-the-battle {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      ". . ."
+      ". . .";
+    grid-area: What-was-the-battle;
+  }
+  
+  .image-1 { grid-area: image-1; }
+  
+  .image-2 { grid-area: image-2; }
+  
+  .why-the-battle-took-place { grid-area: why-the-battle-took-place; }
+  
+  .Video { grid-area: Video; }
+  
+  .Museums { grid-area: Museums; }
+  
+  .Footer { grid-area: Footer; }
+  
