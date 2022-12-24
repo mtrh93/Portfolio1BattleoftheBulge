@@ -1,65 +1,101 @@
-.container {  display: grid;
-    grid-template-columns: 10em 10em 35em 10em 10em;
-    grid-template-rows: 4em 30.5em 5em 4em 4em 4em 4em;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Header . . Nav-Bar Nav-Bar"
-      "Picture-1 Picture-1 Picture-1 Picture-1 Picture-1"
-      "Margin What-was-the-battle What-was-the-battle image-1 Margin-2"
-      "Margin image-2 why-the-battle-took-place why-the-battle-took-place Margin-2"
-      "Margin Video Video Video Margin-2"
-      "Margin Museums Museums Museums Margin-2"
-      "Margin Footer Footer Footer Margin-2";
-  }
-  
-  .Header { grid-area: Header; }
-  
-  .Nav-Bar { grid-area: Nav-Bar; }
-  
-  .Picture-1 { grid-area: Picture-1; }
-  
-  .Margin {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ".";
-    grid-area: Margin;
-  }
-  
-  .Margin-2 {  display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ".";
-    grid-area: Margin-2;
-  }
-  
-  .What-was-the-battle {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      ". . ."
-      ". . ."
-      ". . .";
-    grid-area: What-was-the-battle;
-  }
-  
-  .image-1 { grid-area: image-1; }
-  
-  .image-2 { grid-area: image-2; }
-  
-  .why-the-battle-took-place { grid-area: why-the-battle-took-place; }
-  
-  .Video { grid-area: Video; }
-  
-  .Museums { grid-area: Museums; }
-  
-  .Footer { grid-area: Footer; }
-  
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #65524D;
+    text-decoration: none;
+}
+
+#title_outer {
+  background-color: #DDCA7D;
+    border-left: solid 30px #57886C;
+    border-right: solid 30px #57886C;
+}
+
+#title {
+    text-align: center;
+    font-size: 280%;
+    text-decoration: none;
+    border-left: solid 30px #57886C;
+    border-right: solid 30px #57886C;
+}
+
+#frontpage_image_outer{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#frontpage-image {
+  height: 600px;
+  width: 100%;
+  background: url(../Images/normandy-gf8a60079f_1280.jpg) no-repeat center center;
+}
+
+#nav_menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    text-align: center;
+    border-left: solid 30px #57886C;
+    border-right: solid 30px #57886C;
+}
+
+#nav_menu, #title {
+    line-height: 75px;
+}
+
+#nav_menu li {
+  text-align: center;
+  list-style-type: none;
+  margin-right: 30px;
+  display: inline;
+  color: #65524D;
+}
+
+#nav_menu a {
+  color: inherit;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+#summary_outer {
+  height: 300px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+
+#battle_summary {
+  width: 70%;
+  height: 300px;
+  float: left;
+  padding-left: 20px;
+}
+
+#summary_picture {
+  display: inline;
+  position: relative;
+  float: right;
+  padding-right: 150px;
+}
