@@ -179,12 +179,12 @@ td h4 {
 }
 
 footer {
-  height: 150px;
-  background-color: #57886C;
+  height: 50px;
 }
 
 .social_networks {
   text-align: center;
+  background-color: #57886C;
 }
 
 .social_networks > li {
@@ -194,6 +194,6 @@ footer {
 .social_networks i {
   font-size: 160%;
   margin: 1%;
-  padding: 5%;    
+  padding: 1em 1em 1em 1em;    
   color: #65524D;
 }
