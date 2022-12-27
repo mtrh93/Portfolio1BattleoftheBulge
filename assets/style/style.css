@@ -133,10 +133,14 @@ h1, h2 {
   background-color: #DDCA7D;
 }
 
-#participants_summary h3{
-  text-align: center;
-  padding-bottom: 20px;
+#table_outer {
 }
+
+#table_outer h3{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 
 table {
   table-layout: fixed;
@@ -146,12 +150,17 @@ table {
 }
 
 td {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
   text-align: center;
 }
 
 td h4 {
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
   align-content: center;
 }
 
@@ -167,5 +176,24 @@ td h4 {
   width: 50%;
   margin: 0 auto;
   float: right;
+}
 
+footer {
+  height: 150px;
+  background-color: #57886C;
+}
+
+.social_networks {
+  text-align: center;
+}
+
+.social_networks > li {
+  display: inline;
+}
+
+.social_networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;    
+  color: #65524D;
 }
