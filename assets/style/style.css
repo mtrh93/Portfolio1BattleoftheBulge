@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 #title_outer {
-  background-color: #DDCA7D;
+    background-color: #DDCA7D;
     border-left: solid 30px #57886C;
     border-right: solid 30px #57886C;
 }
@@ -35,6 +35,7 @@ h1, h2 {
     text-decoration: none;
     border-left: solid 30px #57886C;
     border-right: solid 30px #57886C;
+    border-top: solid 10px #57886C;
 }
 
 #frontpage_image_outer{
@@ -82,20 +83,89 @@ h1, h2 {
   height: 300px;
   border-left: solid 60px #57886C;
   border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
   padding-top: 50px;
   padding-left: 10px;
+  padding-bottom: 50px;
 }
 
 #battle_summary {
-  width: 70%;
+  width: 60%;
   height: 300px;
   float: left;
   padding-left: 20px;
 }
 
-#summary_picture {
+#summary_picture_outer {
   display: inline;
   position: relative;
+  padding-right: 150px;
+  width: 30%;
+}
+
+#summary_picture {
   float: right;
   padding-right: 150px;
+}
+
+#participants {
+  height: 300px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  background-color: #DDCA7D;
+}
+
+#participants_picture_outer {
+  position: relative;
+  padding-right: 150px;
+  width: 30%;
+  padding-left: 120px;
+  float: left;
+  background-color: #DDCA7D;
+}
+
+#participants_summary {
+  padding-right: 250px;
+  background-color: #DDCA7D;
+}
+
+#participants_summary h3{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 60%;
+  margin-top: 20em;
+  display: inline;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+td h4 {
+  align-content: center;
+}
+
+#video_section {
+  height: 400px;
+  padding-top: 20px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
+}
+
+#video_outer {
+  width: 50%;
+  margin: 0 auto;
+  float: right;
+
 }
