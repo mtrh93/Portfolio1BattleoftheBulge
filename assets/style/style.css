@@ -79,33 +79,26 @@ h1, h2 {
   text-decoration: underline;
 }
 
-#summary_outer {
+#battle_summary_outer {
   height: 300px;
   border-left: solid 60px #57886C;
   border-right: solid 60px #57886C;
   border-top: solid 10px #57886C;
-  padding-top: 50px;
-  padding-left: 10px;
-  padding-bottom: 50px;
+  padding: 5% 5% 5% 5%;
+  margin: auto;
 }
 
-#battle_summary {
+.text_left {
   width: 60%;
-  height: 300px;
   float: left;
-  padding-left: 20px;
 }
 
-#summary_picture_outer {
+.picture_right_outer {
   display: inline;
-  position: relative;
-  padding-right: 150px;
   width: 30%;
 }
-
-#summary_picture {
+.picture_right {
   float: right;
-  padding-right: 150px;
 }
 
 #participants {
@@ -113,73 +106,46 @@ h1, h2 {
   border-left: solid 60px #57886C;
   border-right: solid 60px #57886C;
   border-top: solid 10px #57886C;
-  padding-top: 50px;
-  padding-left: 10px;
-  padding-bottom: 50px;
+  padding: 5% 5% 5% 5%;
+  margin: auto;
   background-color: #DDCA7D;
 }
 
-#participants_picture_outer {
-  position: relative;
-  padding-right: 150px;
+.picture_left_outer {
   width: 30%;
-  padding-left: 120px;
-  float: left;
-  background-color: #DDCA7D;
 }
 
-#participants_summary {
-  padding-right: 250px;
-  background-color: #DDCA7D;
+.picture_left {
 }
 
-#table_outer {
-}
-
-#table_outer h3{
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-
-table {
-  table-layout: fixed;
+.text_right {
   width: 60%;
-  margin-top: 20em;
-  display: inline;
-}
-
-td {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-  text-align: center;
-}
-
-td h4 {
-  text-align: center;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
-  align-content: center;
+  float: right;
+  position: relative;
+  top: -100%;
 }
 
 #video_section {
-  height: 400px;
-  padding-top: 20px;
+  height: 800px;
   border-left: solid 60px #57886C;
   border-right: solid 60px #57886C;
   border-top: solid 10px #57886C;
+  margin: auto;
+  padding: 5% 5% 5% 5%;
 }
 
-#video_outer {
+#video_text_left {
   width: 50%;
-  margin: 0 auto;
-  float: right;
+  float: left;
+}
+
+
+#video_outer iframe {
+  display: inline;
 }
 
 footer {
-  height: 50px;
+  height: 40px;
 }
 
 .social_networks {
@@ -196,4 +162,8 @@ footer {
   margin: 1%;
   padding: 1em 1em 1em 1em;    
   color: #65524D;
+}
+
+@media screen and (max-width: 1200px) {
+
 }
