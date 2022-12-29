@@ -15,6 +15,7 @@ a {
   text-decoration: none;
 }
 
+
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -116,13 +117,23 @@ h1, h2 {
 }
 
 .picture_left {
+  width: 100%;
 }
+
 
 .text_right {
   width: 60%;
   float: right;
+}
+
+.position_top_100 {
   position: relative;
   top: -100%;
+}
+
+.position_top_50 {
+  position: relative;
+  top: -50%;
 }
 
 #video_section {
@@ -144,8 +155,45 @@ h1, h2 {
   display: inline;
 }
 
+#timeline_section_a {
+  height: 300px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
+  padding: 5% 5% 5% 5%;
+}
+
+#timeline_section_b {
+  height: 300px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
+  padding: 5% 5% 5% 5%;
+  background-color: #DDCA7D;
+}
+
+#timeline_section_c {
+  height: 300px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
+  padding: 5% 5% 5% 5%;
+}
+
+#timeline_section_d {
+  height: 300px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
+  padding: 5% 5% 5% 5%;
+  background-color: #DDCA7D;
+}
+
 footer {
   height: 40px;
+  border-left: solid 60px #57886C;
+  border-right: solid 60px #57886C;
+  border-top: solid 10px #57886C;
 }
 
 .social_networks {
@@ -165,7 +213,7 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-  #battle_summary_outer, #participants {
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d {
     width: 80%;
     height: 1100px;
     margin: 0 auto;
@@ -183,9 +231,17 @@ footer {
 }
 
 .text_right{
-  position: relative;
-  top: 0;
   padding-top: 4%;
+}
+
+.position_top_100 {
+  position: relative;
+  top: 0%;
+}
+
+.position_top_50 {
+  position: relative;
+  top: 0%;
 }
 
 .picture_left_outer, .picture_right_outer {
@@ -219,7 +275,7 @@ footer {
   clear: both;
   border: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
   left: 0
 }
 }
