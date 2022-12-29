@@ -119,6 +119,10 @@ h1, h2 {
   overflow: hidden;
 }
 
+.picture_left {
+  overflow: hidden;
+}
+
 .text_right {
   width: 55%;
   float: right;
