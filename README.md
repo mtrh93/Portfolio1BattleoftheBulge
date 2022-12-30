@@ -9,8 +9,8 @@ People can use the webpage Battle of the Bulge to find historical information su
 The project was created using HTML and CSS and JavaScript. 
 
 ![Battle of the Bulge](/assets/Images/multiscreencapture.png)
----
 
+---
 ## Site Features
 
 * **Title**
@@ -33,7 +33,6 @@ If a user clicks on one of the social media icons a new webpage will open and be
 ![Battle of the Bulge](/assets/Images/colorpalette.png)
 
 ---
-
 * **Header**
 The header contains a simple title, and also consists of the navigation menu and an image from WW2. 
 
@@ -50,5 +49,32 @@ The video section contains an imbedded video for the user to watch to get more i
 ---
 * **Timeline Page**
 
+The timeline page contains a summary of events of the battle for users to follow as well as some images that relate to to the timeline.
 
-![Gallery image](assets/images/Screenshot%20Gallery.png)
+![Timeline image](assets/Images/timelinepage.png)
+
+
+---
+* **Gallery Page**
+
+The Gallery Page when navigated to shows images from world war 2. 
+
+![Gallery image](assets/Images/gallerypage.png)
+
+---
+* **Testing**
+* This webpage has been tested, and works on different explorers such as Chrome, and FireFox.
+* This project is responsive and has been designed to work on larger screens as well as small screens, using dev tools it has been tested on iphone screens, ipad screens, as well as other tablets. 
+* All text is written and easy to understand
+
+### Testing of Home page
+
+![Testing image](assets/images/Screenshot%20testing.jpg)
+
+### Testing of Gallery page
+
+![Gallery testing](assets/images/Screenshot%20gallery%20page.jpg)
+
+### Testing of Sign Up page
+
+![Sign Up testing](/assets/images/Screenshot%20sign%20up%20testing.jpg)
