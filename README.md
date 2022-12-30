@@ -30,6 +30,20 @@ If a user clicks on one of the social media icons a new webpage will open and be
 
 * **Color Scheme**
 
-![Color Palette]](/assets/Images/colorpalette.png)
+![Battle of the Bulge](/assets/Images/colorpalette.png)
 
 ---
+
+* **Header**
+The header contains a simple title, and also consists of the navigation menu and an image of dogs playing and their carers in the background. 
+
+![Header image](assets/images/)
+
+* **Information (mid-page) Section**
+The activities section contains important information as to the benefits of using a Doggy Day Care centre, and also contains priority information regarding a summary of activities dogs will get up to, times the centre will be open and the location of the centre. 
+
+![activities section](assets/images/Screenshot%20Benefits.png)
+
+![Opening times section](assets/images/Screenshot%20Opening%20times.png)
+
+![location section](assets/images/Screenshot%20Location.png)
