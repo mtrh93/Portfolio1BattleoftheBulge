@@ -8,5 +8,28 @@ People can use the webpage Battle of the Bulge to find historical information su
 
 The project was created using HTML and CSS and JavaScript. 
 
-!
+![Battle of the Bulge](/assets/Images/multiscreencapture.png)
+---
+
+## Site Features
+
+* **Title**
+The Battle of the Bulge title is styled using Oswald font in a brow and is position to the center with a beige background color and a green border. The title (header) is positioned and styled the same way across all 3 pages.
+The footer is styled with a green background color and white font color. There is no font using on the header, this has been styled to use social network link images. This footer is also used across all pages to maintain the consistency for the user. 
+
+* **Navigation**
+The navigation menu is located at the top of the page underneath the header and image in the center of the screen.
+* 'Home' which is where the overview information is located, that a user will want to see first as a priority.
+* 'Timeline' this page is where a more detailed timeline of events is located for the user to get more information. 
+* 'Gallery' which shows multiple images from world war 2.
+
+
+* **Footer**
+The footer contains social media links styled with images of the major social media companies.
+If a user clicks on one of the social media icons a new webpage will open and be linked to the homepage of the corresponding social media platform. 
+
+* **Color Scheme**
+
+![Color Palette]](/assets/Images/colorpalette.png)
+
 ---
