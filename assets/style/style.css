@@ -266,7 +266,7 @@ footer {
   font-size: 160%;
   margin: 1%;
   padding: 1rem 1rem 1rem 1rem;    
-  color: #65524D;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1400px) {
@@ -285,13 +285,13 @@ footer {
 
 @media screen and (max-width: 1200px) {
   #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section {
-    height: 55rem;
+    height: 50rem;
     border-left: solid 1rem #57886C;
     border-right: solid 1rem #57886C;
   }
 
   #gallery_section_a, #gallery_section_b, #gallery_section_c, #gallery_section_d {
-    height: 55rem;
+    height: 50rem;
     border-left: solid 1rem #57886C;
     border-right: solid 1rem #57886C;
   }
@@ -332,14 +332,13 @@ footer {
     width: 60%;
     height: 50%;
     float: left;
-    padding: 0;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20% auto;
+    margin-right: 20% auto;
     }
 
     .gallery_right_outer {
-    padding-top: 1%;
+    padding-top: 1rem;
     }
   
     .gallery_left, .gallery_right {
@@ -349,7 +348,7 @@ footer {
     }
 
   .gallery_right_outer{
-    padding-top: 0;
+    padding-top: 1rem;
   }
 
   #video_section {
@@ -383,15 +382,21 @@ footer {
 }  
 
 @media screen and (max-width: 900px) {
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section {
-    height: 57rem;
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #video_section {
+    height: 50rem;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  #timeline_section_d {
+    height: 60rem;
     border-left: 0;
     border-right: 0;
   }
 
   #gallery_section_a, #gallery_section_b, #gallery_section_c, #gallery_section_d {
-    border-left: solid 1rem #57886C;
-    border-right: solid 1rem #57886C;
+    border-left: 0;
+    border-right: 0;
   }
 
   .picture_left_outer, .picture_right_outer {
@@ -423,14 +428,20 @@ footer {
     letter-spacing: 0.5rem;
   }
 
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section{
-    height: 65rem;
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #video_section{
+    height: 55rem;
+    background-color: #DDCA7D;
+    border-top: 0;
+  }
+
+  #timeline_section_d {
+    height: 70rem;
     background-color: #DDCA7D;
     border-top: 0;
   }
 
   #gallery_section_a, #gallery_section_b, #gallery_section_c, #gallery_section_d {
-    height: 30rem;
+    height: 25rem;
     background-color: #DDCA7D;
     border-top: 0;
   }
@@ -443,5 +454,12 @@ footer {
   .gallery_left_outer, .gallery_right_outer {
     width: 60%;
     height: auto;
+    }
+
+    footer {
+      height: 2rem;
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 0;
     }
 }
