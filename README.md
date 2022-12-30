@@ -1,10 +1,10 @@
 # Battle of the Bulge
 
-This is a website with basic information coverign the battle of the bulge also known as the Ardennes Offensive, which was the last major German offensive campaign on the Western Front during World War II. The battle lasted from 16 December 1944 to 28 January 1945, towards the end of the war in Europe.
+This is a website with basic information covering the battle of the bulge also known as the Ardennes Offensive, which was the last major German offensive campaign on the Western Front during World War II. The battle lasted from 16 December 1944 to 28 January 1945, towards the end of the war in Europe.
 
 This is where the idea for Battle of the Bulge comes from. An educational need to provide basic information for anyone who is unfamilar with the battle and historical facts surrounding this event.
 
-People can use the webpage Battle of the Bulge to find historical information such as where it took place, who was involved. Users will also be able to navigate away from the Home page, to a gallery of fun pictures, and then to a timeline page to get even more information on the timeline of events. 
+People can use the Battle of the Bulge to find historical information such as where it took place, who was involved. Users will also be able to navigate away from the Home page, to a gallery of fun pictures, and then to a timeline page to get even more information on the timeline of events. 
 
 The project was created using HTML and CSS and JavaScript. 
 
@@ -69,12 +69,57 @@ The Gallery Page when navigated to shows images from world war 2.
 
 ### Testing of Home page
 
-![Testing image](assets/images/Screenshot%20testing.jpg)
+![Testing image](assets/Images/testinghomepage.png)
 
-### Testing of Gallery page
+### Testing of Timeline page
 
-![Gallery testing](assets/images/Screenshot%20gallery%20page.jpg)
+![Timeline testing](assets/Images/testingtimeline.png)
 
-### Testing of Sign Up page
+### Testing of Gallery Page
 
-![Sign Up testing](/assets/images/Screenshot%20sign%20up%20testing.jpg)
+![Sign Up testing](assets/Images/testinggallery.png)
+
+## Validator testing
+
+*html
+All code and pages have been checked through the W3C Markup Validation Service. The 1st error that came back was for a lack of opening p element in the index file, the checker expected to see an opening element after finding a closing element which was there btu it didnt see.
+The 2nd error was an illegal character on the gallery page which was a space.
+
+*css
+All css code has been run through the W3C CSS Validation Service and has been passed with no errors found. 
+
+* **Bugs**
+All bugs for the webpage have been fixed. 
+
+* **Bug Fixes**
+* in the gallery page there were issues with the images placing directly nxt to each other, padding was introduced to seperate.
+* the navigation menu when on smaller screens would have the "timetable" link would disapear off screen, text sizing and text spacing was reduced to allow this to be visisble.
+
+---
+## Launch and Deployment
+* In the GitHub repository, navigate to the Settings tab.  
+* Scroll down to the GitHub Pages section and click the 'Check it out here!' link.  
+
+* The project has been created using gitpod and deployed using GitHub, the link for the live page is (https://ddrobrien.github.io/Millie-Cares/)
+
+---
+
+## Future Features
+
+* This page can have a further video added to bottom of home page.
+* A map of the site of the battle
+* A list of museums for planning a visit to the battle site
+---
+
+## Credits
+
+### Content
+* The layout of the webpage came from inspiration of the CI [Love Running Project](https://ddrobrien.github.io/Love-Running/)
+* Inspiration for both the gallery and sign up came from the CI [Love Running Project](https://ddrobrien.github.io/Love-Running/)
+* The code for the navigation menu came from CI [Love Running Project](https://ddrobrien.github.io/Love-Running/)
+* The font came from [google font](https://fonts.google.com/)
+* Color palette inspiration came from [coolers.co](https://coolors.co/)
+* html validation came from [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+* css validation came from [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+icons inspiration came from [Love Runnning Project] but sourced from [Font Awesome](https://fontawesome.com/)
+* The video was sourced from [History Uk](https://www.history.co.uk/)
