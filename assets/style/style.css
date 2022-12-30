@@ -23,6 +23,10 @@ h1, h2 {
     text-decoration: none;
 }
 
+img {
+  object-fit: cover;
+}
+
 #title_outer {
     background-color: #DDCA7D;
     border-left: solid 2rem #57886C;
@@ -81,7 +85,7 @@ h1, h2 {
 }
 
 #battle_summary_outer {
-  height: 20rem;
+  height: 22rem;
   border-left: solid 3rem #57886C;
   border-right: solid 3rem #57886C;
   border-top: solid 1rem #57886C;
@@ -97,14 +101,16 @@ h1, h2 {
 .picture_right_outer {
   display: inline;
   width: 30%;
-  overflow: hidden;
+  height: 75%;
+  float: right;
 }
 .picture_right {
-  float: right;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #participants {
-  height: 20rem;
+  height: 22rem;
   border-left: solid 3rem #57886C;
   border-right: solid 3rem #57886C;
   border-top: solid 1rem #57886C;
@@ -115,27 +121,19 @@ h1, h2 {
 
 .picture_left_outer {
   width: 30%;
+  height: 100%;
   float: left;
   overflow: hidden;
 }
 
 .picture_left {
-  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .text_right {
   width: 55%;
   float: right;
-}
-
-.position_top_100 {
-  position: relative;
-  top: -100%;
-}
-
-.position_top_50 {
-  position: relative;
-  top: -50%;
 }
 
 #video_section {
@@ -215,15 +213,15 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d {
-    height: 45rem;
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section {
+    height: 30rem;
     border-left: solid 1rem #57886C;
     border-right: solid 1rem #57886C;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d {
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section {
     height: 55rem;
     border-left: solid 1rem #57886C;
     border-right: solid 1rem #57886C;
@@ -243,18 +241,9 @@ footer {
   padding-top: 4%;
   }
 
-  .position_top_100 {
-  position: relative;
-  top: 0%;
-  }
-
-  .position_top_50 {
-  position: relative;
-  top: 0%;
-  }
-
   .picture_left_outer, .picture_right_outer {
-  width: inherit;
+  width: 60%;
+  height: 40%;
   float: left;
   padding: 0;
   }
@@ -265,7 +254,7 @@ footer {
 
   .picture_left, .picture_right {
   width: 90%;
-  height: 90%;
+  height: auto;
   float: left;
   padding: 0;
   }
@@ -288,7 +277,7 @@ footer {
 }
 
 @media screen and (max-width: 1100px) {
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d {
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section {
     height: 55rem;
     border-left: solid 1rem #57886C;
     border-right: solid 1rem #57886C;
@@ -296,17 +285,44 @@ footer {
 }  
 
 @media screen and (max-width: 900px) {
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d {
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section {
     height: 57rem;
-    border-left: solid 1rem #57886C;
-    border-right: solid 1rem #57886C;
+    border-left: 0;
+    border-right: 0;
   }
+
+  .picture_left_outer, .picture_right_outer {
+    width: 70%;
+    height: auto;
+    }
 }
 
 @media screen and (max-width: 450px) {
-  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d {
-    height: 60rem;
-    border-left: solid 1rem #57886C;
-    border-right: solid 1rem #57886C;
+  #title_outer {
+    border-left: 0;
+    border-right: 0;
+}
+
+#title {
+    border-top: 0;
+}
+
+#nav_menu {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid 1rem #57886C;
+  font-size: 80%;
+  letter-spacing: 0.5rem;
+}
+
+  #battle_summary_outer, #participants, #timeline_section_a, #timeline_section_b, #timeline_section_c, #timeline_section_d, #video_section{
+    height: 65rem;
+    background-color: #DDCA7D;
+    border-top: 0;
   }
+
+  .picture_left_outer, .picture_right_outer {
+    width: 60%;
+    height: auto;
+    }
 }
