@@ -74,6 +74,7 @@ img {
   list-style-type: none;
   display: inline;
   color: #65524D;
+  font-weight: 500;
 }
 
 #nav_menu a {
